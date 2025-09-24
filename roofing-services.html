@@ -1,0 +1,2980 @@
+<!doctype html >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      class="">
+<head>
+    <meta charset="utf-8">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    window._currentDevice = 'desktop';
+    window.Parameters = window.Parameters || {
+        HomeUrl: 'https://www.statelineroofingcompany.com/',
+        AccountUUID: '867caca9c9254343bd8260f2ae7d58e7',
+        SystemID: 'US_DIRECT_PRODUCTION',
+        SiteAlias: 'e0ad5d71',
+        SiteType: atob('RFVEQU9ORQ=='),
+        PublicationDate: 'Tue Dec 17 14:41:24 UTC 2024',
+        ExternalUid: 'TI STATEL014',
+        IsSiteMultilingual: false,
+        InitialPostAlias: '',
+        InitialPostPageUuid: '',
+        InitialDynamicItem: '',
+        DynamicPageInfo: {
+            isDynamicPage: false,
+            base64JsonRowData: 'null',
+        },
+        InitialPageAlias: 'roofing-services',
+        InitialPageUuid: 'd328c9e063df47d3a1befd09cc90f1cd',
+        InitialPageId: '33528600',
+        InitialEncodedPageAlias: 'cm9vZmluZy1zZXJ2aWNlcw==',
+        InitialHeaderUuid: '006965ece2ed4bab877610a1e2d269ee',
+        CurrentPageUrl: '',
+        IsCurrentHomePage: false,
+        AllowAjax: false,
+        AfterAjaxCommand: null,
+        HomeLinkText: 'Back To Home',
+        UseGalleryModule: false,
+        CurrentThemeName: 'Layout Theme',
+        ThemeVersion: '50240',
+        DefaultPageAlias: '',
+        RemoveDID: true,
+        WidgetStyleID: null,
+        IsHeaderFixed: false,
+        IsHeaderSkinny: false,
+        IsBfs: true,
+        StorePageAlias: 'null',
+        StorePagesUrls: 'e30=',
+        IsNewStore: 'false',
+        StorePath: '',
+        StoreId: 'null',
+        StoreVersion: 0,
+        StoreBaseUrl: '',
+        StoreCleanUrl: true,
+        StoreDisableScrolling: true,
+        IsStoreSuspended: false,
+        HasCustomDomain: true,
+        SimpleSite: false,
+        showCookieNotification: false,
+        cookiesNotificationMarkup: 'null',
+        translatedPageUrl: '',
+        isFastMigrationSite: false,
+        sidebarPosition: 'NA',
+        currentLanguage: 'en',
+        currentLocale: 'en',
+        NavItems: '{}',
+        errors: {
+            general: 'There was an error connecting to the page.<br/> Make sure you are not offline.',
+            password: 'Incorrect name/password combination',
+            tryAgain: 'Try again'
+        },
+        NavigationAreaParams: {
+            ShowBackToHomeOnInnerPages: true,
+            NavbarSize: -1,
+            NavbarLiveHomePage: 'https://www.statelineroofingcompany.com/',
+            BlockContainerSelector: '.dmBody',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
+        },
+        hasCustomCode: true,
+        planID: '7',
+        customTemplateId: 'null',
+        siteTemplateId: 'null',
+        productId: 'DM_DIRECT',
+        disableTracking: false,
+        pageType: 'FROM_SCRATCH',
+        isRuntimeServer: true,
+        isInEditor: false,
+        hasNativeStore: false,
+        defaultLang: 'en',
+        hamburgerMigration: null,
+        isFlexSite: false
+    };
+
+    window.Parameters.LayoutID = {};
+    window.Parameters.LayoutID[window._currentDevice] = 6;
+    window.Parameters.LayoutVariationID = {};
+    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Injecting site-wide to the head -->
+
+<meta name="google-site-verification" content="L9QDvDc6bP3knmEKKO2puDsqoGi9EgEKHEeFijOasdo" data-swh-uuid="b9b38bc9a6ae4644806e5b616a502cbe"/>
+
+
+
+<!-- End Injecting site-wide to the head -->
+
+<!-- Inject secured cdn script -->
+
+
+<!-- ========= Meta Tags ========= -->
+<!-- PWA settings -->
+<script>
+    function toHash(str) {
+        var hash = 5381, i = str.length;
+        while (i) {
+            hash = hash * 33 ^ str.charCodeAt(--i)
+        }
+        return hash >>> 0
+    }
+</script>
+<script>
+    (function (global) {
+    //const cacheKey = global.cacheKey;
+    const isOffline = 'onLine' in navigator && navigator.onLine === false;
+    const hasServiceWorkerSupport = 'serviceWorker' in navigator;
+    if (isOffline) {
+        console.log('offline mode');
+    }
+    if (!hasServiceWorkerSupport) {
+        console.log('service worker is not supported');
+    }
+    if (hasServiceWorkerSupport && !isOffline) {
+        window.addEventListener('load', function () {
+            const serviceWorkerPath = '/runtime-service-worker.js?v=3';
+            navigator.serviceWorker
+                .register(serviceWorkerPath, { scope: './' })
+                .then(
+                    function (registration) {
+                        // Registration was successful
+                        console.log(
+                            'ServiceWorker registration successful with scope: ',
+                            registration.scope
+                        );
+                    },
+                    function (err) {
+                        // registration failed :(
+                        console.log('ServiceWorker registration failed: ', err);
+                    }
+                )
+                .catch(function (err) {
+                    console.log(err);
+                });
+        });
+
+        // helper function to refresh the page
+        var refreshPage = (function () {
+            var refreshing;
+            return function () {
+                if (refreshing) return;
+                // prevent multiple refreshes
+                var refreshkey = 'refreshed' + location.href;
+                var prevRefresh = localStorage.getItem(refreshkey);
+                if (prevRefresh) {
+                    localStorage.removeItem(refreshkey);
+                    if (Date.now() - prevRefresh < 30000) {
+                        return; // dont go into a refresh loop
+                    }
+                }
+                refreshing = true;
+                localStorage.setItem(refreshkey, Date.now());
+                console.log('refereshing page');
+                window.location.reload();
+            };
+        })();
+
+        function messageServiceWorker(data) {
+            return new Promise(function (resolve, reject) {
+                if (navigator.serviceWorker.controller) {
+                    var worker = navigator.serviceWorker.controller;
+                    var messageChannel = new MessageChannel();
+                    messageChannel.port1.onmessage = replyHandler;
+                    worker.postMessage(data, [messageChannel.port2]);
+                    function replyHandler(event) {
+                        resolve(event.data);
+                    }
+                } else {
+                    resolve();
+                }
+            });
+        }
+    }
+})(window);
+</script>
+<!-- Add manifest -->
+<!-- End PWA settings -->
+
+
+
+<link rel="canonical" href="roofing-services.html">
+
+<meta id="view" name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!--Add favorites icons-->
+
+<link rel="icon" type="image/x-icon" href="https://irp.cdn-website.com/e0ad5d71/site_favicon_16_1727874365749.ico"/>
+
+<!-- End favorite icons -->
+<link rel="preconnect" href="https://lirp.cdn-website.com/"/>
+
+
+
+<!-- render the required CSS and JS in the head section -->
+<script id='d-js-dmapi'>
+    window.SystemID = 'US_DIRECT_PRODUCTION';
+
+    if (!window.dmAPI) {
+        window.dmAPI = {
+            registerExternalRuntimeComponent: function () {
+            },
+            getCurrentDeviceType: function () {
+                return window._currentDevice;
+            },
+            runOnReady: (ns, fn) => {
+                const safeFn = dmAPI.toSafeFn(fn);
+                ns = ns || 'global_' + Math.random().toString(36).slice(2, 11);
+                const eventName = 'afterAjax.' + ns;
+
+                if (document.readyState === 'complete') {
+                    $.DM.events.off(eventName).on(eventName, safeFn);
+                    setTimeout(function () {
+                        safeFn({
+                            isAjax: false,
+                        });
+                    }, 0);
+                } else {
+                    window?.waitForDeferred?.('dmAjax', () => {
+                        $.DM.events.off(eventName).on(eventName, safeFn);
+                        safeFn({
+                            isAjax: false,
+                        });
+                    });
+                }
+            },
+            toSafeFn: (fn) => {
+                if (fn?.safe) {
+                    return fn;
+                }
+                const safeFn = function (...args) {
+                    try {
+                        return fn?.apply(null, args);
+                    } catch (e) {
+                        console.log('function failed ' + e.message);
+                    }
+                };
+                safeFn.safe = true;
+                return safeFn;
+            }
+        };
+    }
+
+    if (!window.requestIdleCallback) {
+        window.requestIdleCallback = function (fn) {
+            setTimeout(fn, 0);
+        }
+    }
+</script>
+
+<!-- loadCSS function header.jsp-->
+
+
+
+
+
+
+<script id="d-js-load-css">
+/**
+ * There are a few <link> tags with CSS resource in them that are preloaded in the page
+ * in each of those there is a "onload" handler which invokes the loadCSS callback
+ * defined here.
+ * We are monitoring 3 main CSS files - the runtime, the global and the page.
+ * When each load we check to see if we can append them all in a batch. If threre
+ * is no page css (which may happen on inner pages) then we do not wait for it
+ */
+(function () {
+  let cssLinks = {};
+  function loadCssLink(link) {
+    link.onload = null;
+    link.rel = "stylesheet";
+    link.type = "text/css";
+  }
+  
+    function checkCss() {
+      const pageCssLink = document.querySelector("[id*='CssLink']");
+      const widgetCssLink = document.querySelector("[id*='widgetCSS']");
+
+        if (cssLinks && cssLinks.runtime && cssLinks.global && (!pageCssLink || cssLinks.page) && (!widgetCssLink || cssLinks.widget)) {
+            const storedRuntimeCssLink = cssLinks.runtime;
+            const storedPageCssLink = cssLinks.page;
+            const storedGlobalCssLink = cssLinks.global;
+            const storedWidgetCssLink = cssLinks.widget;
+
+            storedGlobalCssLink.disabled = true;
+            loadCssLink(storedGlobalCssLink);
+
+            if (storedPageCssLink) {
+                storedPageCssLink.disabled = true;
+                loadCssLink(storedPageCssLink);
+            }
+
+            if(storedWidgetCssLink) {
+                storedWidgetCssLink.disabled = true;
+                loadCssLink(storedWidgetCssLink);
+            }
+
+            storedRuntimeCssLink.disabled = true;
+            loadCssLink(storedRuntimeCssLink);
+
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    storedRuntimeCssLink.disabled = false;
+                    storedGlobalCssLink.disabled = false;
+                    if (storedPageCssLink) {
+                      storedPageCssLink.disabled = false;
+                    }
+                    if (storedWidgetCssLink) {
+                      storedWidgetCssLink.disabled = false;
+                    }
+                    // (SUP-4179) Clear the accumulated cssLinks only when we're
+                    // sure that the document has finished loading and the document 
+                    // has been parsed.
+                    if(document.readyState === 'interactive') {
+                      cssLinks = null;
+                    }
+                }, 0);
+            });
+        }
+    }
+  
+
+  function loadCSS(link) {
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
+
+      if (noCSS) {
+        return;
+      }
+      if (link.href && link.href.includes("d-css-runtime")) {
+        cssLinks.runtime = link;
+        checkCss();
+      } else if (link.id === "siteGlobalCss") {
+        cssLinks.global = link;
+        checkCss();
+      } 
+      
+      else if (link.id && link.id.includes("CssLink")) {
+        cssLinks.page = link;
+        checkCss();
+      } else if (link.id && link.id.includes("widgetCSS")) {
+        cssLinks.widget = link;
+        checkCss();
+      }
+      
+      else {
+        requestIdleCallback(function () {
+          window.setTimeout(function () {
+            loadCssLink(link);
+          }, parseInt(cssTimeout, 10));
+        });
+      }
+    } catch (e) {
+      throw e
+    }
+  }
+  window.loadCSS = window.loadCSS || loadCSS;
+})();
+</script>
+
+
+
+<script data-role="deferred-init" type="text/javascript">
+    /* usage: window.getDeferred(<deferred name>).resolve() or window.getDeferred(<deferred name>).promise.then(...)*/
+    function Def() {
+        this.promise = new Promise((function (a, b) {
+            this.resolve = a, this.reject = b
+        }).bind(this))
+    }
+
+    const defs = {};
+    window.getDeferred = function (a) {
+        return null == defs[a] && (defs[a] = new Def), defs[a]
+    }
+    window.waitForDeferred = function (b, a, c) {
+        let d = window?.getDeferred?.(b);
+        d
+            ? d.promise.then(a)
+            : c && ["complete", "interactive"].includes(document.readyState)
+                ? setTimeout(a, 1)
+                : c
+                    ? document.addEventListener("DOMContentLoaded", a)
+                    : console.error(`Deferred  does not exist`);
+    };
+</script>
+<style id="forceCssIncludes">
+    /* This file is auto-generated from a `scss` file with the same name */
+
+.videobgwrapper{overflow:hidden;position:absolute;z-index:0;width:100%;height:100%;top:0;left:0;pointer-events:none;border-radius:inherit}.videobgframe{position:absolute;width:101%;height:100%;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);object-fit:fill}#dm video.videobgframe{margin:0}@media (max-width:767px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:80vh}}@media (min-width:1025px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}@media (min-width:768px) and (max-width:1024px){.responsiveTablet .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}#dm [data-show-on-page-only]{display:none!important}#dmRoot div.stickyHeaderFix div.site_content{margin-top:0!important}#dmRoot div.stickyHeaderFix div.hamburger-header-container{position:relative}
+    
+
+</style>
+<style id="cssVariables" type="text/css">
+    :root {
+  --color_1: rgba(33, 33, 33, 1);
+  --color_2: rgba(49, 49, 49, 1);
+  --color_3: rgba(237, 236, 236, 1);
+  --color_4: rgba(65, 65, 65, 1);
+  --color_5: rgba(113, 113, 113, 1);
+  --color_6: rgba(0, 0, 0, 0);
+  --color_7: rgba(0, 0, 0, 1);
+  --color_8: rgba(255, 255, 255, 1);
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Fonts Include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- loadCSS function fonts.jsp-->
+
+
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/fonts/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Epilogue:ital,wght@0,100..900;1,100..900&amp;subset=latin-ext&amp;display=swap"  />
+
+
+
+
+
+<!-- RT CSS Include d-css-runtime-desktop-one-package-structured-global-->
+<link rel="stylesheet" type="text/css" href="https://static.cdn-website.com/mnlt/production/5798/_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-structured-global.min.css" />
+
+<!-- End of RT CSS Include -->
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/WIDGET_CSS/da522423b0485975859b416d1724fba0.css" id="widgetCSS" />
+
+<!-- Support `img` size attributes -->
+<style>img[width][height] {
+  height: auto;
+}</style>
+
+<!-- Support showing sticky element on page only -->
+<style>
+  body[data-page-alias="roofing-services"] #dm [data-show-on-page-only="roofing-services"] {
+    display: block !important;
+  }
+</style>
+
+<!-- This is populated in Ajax navigation -->
+<style id="pageAdditionalWidgetsCss" type="text/css">
+</style>
+
+
+
+
+<!-- Site CSS -->
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/e0ad5d71/files/e0ad5d71_1.min.css?v=12" id="siteGlobalCss" />
+
+
+
+<style id="customWidgetStyle" type="text/css">
+    
+</style>
+<style id="innerPagesStyle" type="text/css">
+    
+</style>
+
+
+<style
+        id="additionalGlobalCss" type="text/css"
+>
+</style>
+
+<style id="pagestyle" type="text/css">
+    *#dm *.dmBody a.span.textonly
+{
+	color:rgb(255,255,255) !important;
+}
+*#dm *.dmBody div.dmform-error
+{
+	font-style:normal !important;
+}
+*#dm *.dmBody div.dmforminput textarea
+{
+	font-style:italic !important;
+}
+*#dm *.dmBody div.dmforminput *.fileUploadLink
+{
+	font-style:italic !important;
+}
+*#dm *.dmBody div.checkboxwrapper span
+{
+	font-style:italic !important;
+}
+*#dm *.dmBody div.radiowrapper span
+{
+	font-style:italic !important;
+}
+*#dm *.dmBody div.u_1606902671 img[dm_changed]
+{
+	object-position:0 50% !important;
+	object-fit:cover !important;
+}
+*#dm *.dmBody div.u_1606902671 img
+{
+	object-position:0 50% !important;
+	object-fit:cover !important;
+}
+*#dm *.dmBody div.u_1572395528 img[dm_changed]
+{
+	object-position:50% 50% !important;
+	object-fit:cover !important;
+}
+*#dm *.dmBody div.u_1572395528 img
+{
+	object-position:50% 50% !important;
+	object-fit:cover !important;
+}
+*#dm *.dmBody div.u_1823688901 img[dm_changed]
+{
+	object-position:50% 0 !important;
+	object-fit:cover !important;
+}
+*#dm *.dmBody div.u_1823688901 img
+{
+	object-position:50% 0 !important;
+	object-fit:cover !important;
+}
+*#dm *.dmBody nav.u_1144820115
+{
+	color:black !important;
+}
+[data-page-alias="home"] #hcontainer:not(.scroll-responder_set) a *
+{
+	color:#fff !important;
+}
+*#dm *.dmBody div.u_1222793616 img[dm_changed]
+{
+	box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+	border-bottom-style:solid !important;
+	border-bottom-color:var(--color_1) !important;
+	border-bottom-width:6px !important;
+}
+*#dm *.dmBody *.u_1222793616
+{
+	width:100% !important;
+}
+*#dm *.dmBody div.u_1222793616 img
+{
+	box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+	border-bottom-style:solid !important;
+	border-bottom-color:var(--color_1) !important;
+	border-bottom-width:6px !important;
+	border-radius:3px 3px 3px 3px !important;
+}
+
+</style>
+
+<style id="pagestyleDevice" type="text/css">
+    *#dm *.d-page-1716942098 DIV.dmInner
+{
+	background-repeat:no-repeat !important;
+	background-size:cover !important;
+	background-attachment:fixed !important;
+	background-position:50% 50% !important;
+}
+*#dm *.d-page-1716942098 DIV#dmSlideRightNavRight
+{
+	background-repeat:no-repeat !important;
+	background-image:none !important;
+	background-size:cover !important;
+	background-attachment:fixed !important;
+	background-position:50% 50% !important;
+}
+*#dm *.dmBody *.u_1922648710
+{
+	text-align:left !important;
+}
+
+</style>
+
+<!-- Flex Sections CSS -->
+
+ <style id="grid-styles-desktop-89a17505-d328c9e063df47d3a1befd09cc90f1cd" data-page-uuid="d328c9e063df47d3a1befd09cc90f1cd">@media all {
+    
+#\39 bb6cf40 {
+    position: relative;
+    width: 99.98689598689599%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    order: 0;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#\30 2a7a698 {
+    align-self: start;
+    background-size: cover;
+    display: flex;
+    min-height: auto;
+    background-position: 50% 50%;
+    column-gap: 4%;
+    row-gap: 24px;
+    background-repeat: no-repeat;
+    flex-direction: row;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    justify-self: center;
+    order: 0;
+    flex-wrap: nowrap;
+    padding: 50px 4% 50px 4%;
+}
+    
+#\38 d13496e::before, #\38 d13496e > .bgExtraLayerOverlay {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--color_7);
+    opacity: 0.35;
+    border-radius: inherit;
+}
+#\38 d13496e {
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-columns: minmax(0px, 1fr);
+    grid-template-rows: minmax(8px, max-content);
+    display: grid;
+    justify-content: start;
+    background-position: 50% 50%;
+    align-items: start;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 1) rgba(0, 0, 0, 1) rgba(0, 0, 0, 1) rgba(0, 0, 0, 1);
+    border-width: 0px 0px 0px 0px;
+    background-image: url(https://lirp.cdn-website.com/e0ad5d71/dms3rep/multi/opt/bg-2880w.jpg);
+}
+    
+#\32 bb14c72 {
+    position: relative;
+    width: 208px;
+    height: 55px;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    order: 2;
+}
+    
+#\35 12a7af9::before, #\35 12a7af9 > .bgExtraLayerOverlay {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    border-radius: inherit;
+}
+#\35 12a7af9 {
+    align-self: stretch;
+    background-size: cover;
+    display: flex;
+    min-height: 8px;
+    background-position: 50% 50%;
+    column-gap: 4%;
+    row-gap: 29px;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    min-width: 4%;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0 0 0 0;
+    background-image: none;
+    padding: 16px 16px 16px 16px;
+}
+}</style> 
+ <style id="grid-styles-desktop-f3ab2c50-d328c9e063df47d3a1befd09cc90f1cd" data-page-uuid="d328c9e063df47d3a1befd09cc90f1cd">@media all {
+    
+#\32 5b42c76 {
+    margin: 0px 0px 0px 0px;
+}
+    
+#\36 4a2cd97 {
+    position: relative;
+    width: 543px;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    justify-self: auto;
+    order: 1;
+    margin: 0px 0% 0px 0%;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#da4e3dfe {
+    align-self: stretch;
+    background-size: cover;
+    display: flex;
+    min-height: 8px;
+    background-position: 50% 50%;
+    column-gap: 4%;
+    row-gap: 16px;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    max-width: 100%;
+    width: 48%;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    min-width: 4%;
+    order: 0;
+    padding: 16px 16px 16px 16px;
+    margin: 0px 0% 0px 0%;
+}
+    
+#\36 4da82cb::before, #\36 4da82cb > .bgExtraLayerOverlay {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.89;
+    border-radius: inherit;
+}
+#\36 4da82cb {
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-columns: minmax(0px, 1fr);
+    grid-template-rows: minmax(8px, max-content);
+    display: grid;
+    justify-content: start;
+    background-position: 50% 100%;
+    align-items: start;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: none;
+}
+    
+#\32 2ce2c23 {
+    align-self: stretch;
+    background-size: cover;
+    display: flex;
+    min-height: 8px;
+    background-position: 50% 50%;
+    column-gap: 4%;
+    row-gap: 24px;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    max-width: 100%;
+    width: 48%;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    min-width: 4%;
+    background-image: initial;
+    order: 1;
+    border-radius: 3px 3px 3px 3px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0% 0px 0%;
+}
+    
+#cb8e1875 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    justify-self: auto;
+    order: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#fc042399 {
+    align-self: start;
+    background-size: cover;
+    min-height: auto;
+    background-repeat: no-repeat;
+    flex-direction: row;
+    order: 0;
+    display: flex;
+    background-position: 50% 50%;
+    column-gap: 4%;
+    row-gap: 24px;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    justify-self: center;
+    flex-wrap: nowrap;
+    padding: 50px 4% 50px 4%;
+    margin: 0px 0% 0px 0%;
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+    
+#\38 6f9364d {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    justify-self: auto;
+    order: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#widget_l5e {
+    position: relative;
+    width: 99.99846439997023%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    align-self: auto;
+    order: 0;
+    grid-area: auto / auto / auto / auto;
+}
+}</style> 
+ <style id="grid-styles-desktop-74d03080-d328c9e063df47d3a1befd09cc90f1cd" data-page-uuid="d328c9e063df47d3a1befd09cc90f1cd">@media all {
+    
+#\32 6fb279d {
+    align-self: start;
+    background-size: cover;
+    min-height: auto;
+    background-repeat: no-repeat;
+    flex-direction: row;
+    order: 0;
+    display: flex;
+    background-position: 50% 50%;
+    column-gap: 0%;
+    row-gap: 0px;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    justify-self: center;
+    flex-wrap: nowrap;
+    padding: 50px 4% 50px 4%;
+    margin: 0px 0% 0px 0%;
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+    
+#\32 ef71426 {
+    position: relative;
+    width: 92.11308411214954%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    justify-self: auto;
+    order: 1;
+    margin: 0px 0% 0px 0%;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#\32 bdcb8bb {
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-columns: minmax(0px, 1fr);
+    grid-template-rows: minmax(8px, max-content);
+    display: grid;
+    justify-content: start;
+    background-position: 50% 50%;
+    align-items: start;
+    position: relative;
+    background-color: var(--color_3);
+}
+    
+#\37 f1c50ff {
+    align-self: stretch;
+    background-size: cover;
+    display: flex;
+    min-height: 8px;
+    background-position: 50% 50%;
+    column-gap: 4%;
+    row-gap: 24px;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    max-width: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    min-width: 4%;
+    padding: 16px 16px 16px 30px;
+    margin: 0px 0% 0px 0%;
+}
+    
+#\35 92ff876 {
+    margin: 0px 0% 0px 0%;
+}
+    
+#fc7a1be2 {
+    position: relative;
+    width: 543px;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    justify-self: auto;
+    order: 1;
+    align-self: auto;
+    margin: 0px 0% 0px 0%;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#\38 178b76d {
+    align-self: stretch;
+    background-size: cover;
+    display: flex;
+    min-height: 8px;
+    background-position: 50% 50%;
+    column-gap: 4%;
+    row-gap: 16px;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    max-width: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    min-width: 4%;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 1) var(--color_1) var(--color_1) rgba(0, 0, 0, 1);
+    border-width: 0px 3px 0px 0px;
+    padding: 16px 30px 16px 16px;
+    margin: 0px 0% 0px 0%;
+}
+    
+#\30 cd141d6 {
+    position: relative;
+    width: 92.11308411214954%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    justify-self: auto;
+    order: 0;
+    margin: 0px 0% 0px 0%;
+    grid-area: auto / auto / auto / auto;
+}
+}</style> 
+ <style id="grid-styles-desktop-75adee40-006965ece2ed4bab877610a1e2d269ee" data-page-uuid="006965ece2ed4bab877610a1e2d269ee" data-is-header="true">@media all {
+    
+#\38 3787454 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    min-height: 357px;
+    max-height: 100%;
+    justify-self: auto;
+    order: 0;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#d990701f.flex-element.widget-wrapper > [data-element-type] {
+    padding-bottom: 10px;
+}
+#d990701f {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    justify-self: auto;
+    align-self: flex-start;
+    order: 3;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#\31 69f388e {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
+    width: 33.27794736691389%;
+    min-height: 357px;
+    max-height: 100%;
+    justify-self: auto;
+    align-self: auto;
+    order: 1;
+    padding: 16px 25px 16px 25px;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#\39 fbc09e9 {
+    position: relative;
+    width: 100.00%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    order: 4;
+    align-self: flex-start;
+}
+    
+#\36 041fa6e {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    min-height: 402px;
+    max-height: 100%;
+    justify-self: auto;
+    align-self: auto;
+    order: 0;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#\38 9bd346f {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    align-self: stretch;
+}
+    
+#\32 18f33b2 {
+    align-self: start;
+    background-size: cover;
+    display: flex;
+    min-height: auto;
+    background-position: 50% 50%;
+    column-gap: 3%;
+    row-gap: 18px;
+    background-repeat: no-repeat;
+    flex-direction: row;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    justify-self: center;
+    order: 0;
+    flex-wrap: nowrap;
+    padding: 30px 4% 65px 4%;
+    margin: 0px 0% 0px 0%;
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+    
+#bc6b09ea {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    order: 4;
+    align-self: flex-start;
+}
+    
+#\35 c7169b4 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    justify-self: auto;
+    align-self: flex-start;
+    order: 1;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#a2e36541 {
+    margin: 0px 0% 0px 0%;
+}
+    
+#\31 479aea0 {
+    align-self: stretch;
+    background-size: cover;
+    display: flex;
+    min-height: 8px;
+    background-position: 50% 50%;
+    column-gap: 4%;
+    row-gap: 24px;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-width: 4%;
+    flex-wrap: nowrap;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0% 0px 0%;
+}
+    
+#\34 dc67784 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-columns: minmax(0px, 1fr);
+    grid-template-rows: minmax(8px, max-content);
+    display: grid;
+    justify-content: start;
+    background-position: 50% 50%;
+    align-items: start;
+    position: relative;
+    border-style: solid;
+    border-color: var(--color_1) var(--color_1) var(--color_1) var(--color_1);
+    border-width: 8px 0px 0px 0px;
+    background-color: var(--color_4);
+    background-image: initial;
+}
+    
+#b3915bcd.flex-element.widget-wrapper > [data-element-type] {
+    padding-bottom: 10px;
+}
+#b3915bcd {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    justify-self: auto;
+    align-self: flex-start;
+    order: 0;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#\38 c8b834e.flex-element.widget-wrapper > [data-element-type] {
+    padding-bottom: 10px;
+}
+#\38 c8b834e {
+    position: relative;
+    width: 99.99776079030931%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    align-self: flex-start;
+    order: 3;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#e1d2da3a {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    order: 2;
+    justify-self: auto;
+    align-self: auto;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#\31 10870da {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    order: 1;
+}
+    
+#\34 ef02cb6.flex-element.widget-wrapper > [data-element-type] {
+    padding-bottom: 10px;
+}
+#\34 ef02cb6 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    order: 0;
+    align-self: flex-start;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#c41b0329 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
+    width: 33.27487270161165%;
+    min-height: 357px;
+    max-height: 100%;
+    justify-self: auto;
+    align-self: auto;
+    order: 0;
+    padding: 16px 25px 16px 25px;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#e5ce4d48 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
+    width: 33.27767877541695%;
+    min-height: 355px;
+    max-height: 100%;
+    justify-self: auto;
+    align-self: auto;
+    order: 2;
+    padding: 16px 25px 16px 25px;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#f5ffc150 {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    order: 5;
+    justify-self: auto;
+    align-self: auto;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#widget_4c4.flex-element.widget-wrapper > [data-element-type] {
+    padding-top: 10px;
+}
+#widget_4c4 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    order: 5;
+}
+}</style> 
+ <style id="grid-styles-adjustments_for_tablet-f3ab2c50-d328c9e063df47d3a1befd09cc90f1cd" data-page-uuid="d328c9e063df47d3a1befd09cc90f1cd">@media (min-width: 767px) and (max-width: 1024px) {
+}</style> 
+ <style id="grid-styles-adjustments_for_tablet-74d03080-d328c9e063df47d3a1befd09cc90f1cd" data-page-uuid="d328c9e063df47d3a1befd09cc90f1cd">@media (min-width: 767px) and (max-width: 1024px) {
+}</style> 
+ <style id="grid-styles-adjustments_for_tablet-75adee40-006965ece2ed4bab877610a1e2d269ee" data-page-uuid="006965ece2ed4bab877610a1e2d269ee" data-is-header="true">@media (min-width: 767px) and (max-width: 1024px) {
+}</style> 
+ <style id="grid-styles-tablet-89a17505-d328c9e063df47d3a1befd09cc90f1cd" data-page-uuid="d328c9e063df47d3a1befd09cc90f1cd">@media (min-width: 768px) and (max-width: 1024px) {
+    
+#\30 2a7a698 {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-height: 350px;
+    padding: 50px 3% 50px 3%;
+}
+    
+#\38 d13496e::before, #\38 d13496e > .bgExtraLayerOverlay {
+    
+}
+    
+#\35 12a7af9::before, #\35 12a7af9 > .bgExtraLayerOverlay {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    border-radius: inherit;
+}
+#\35 12a7af9 {
+    width: 100%;
+    min-height: 8px;
+    background-color: rgba(0, 0, 0, 0);
+    background-position: 50% 50%;
+    row-gap: 23px;
+    padding: 16px 16px 16px 16px;
+}
+}</style> 
+ <style id="grid-styles-tablet-f3ab2c50-d328c9e063df47d3a1befd09cc90f1cd" data-page-uuid="d328c9e063df47d3a1befd09cc90f1cd">@media (min-width: 767px) and (max-width: 1024px) {
+    
+#\36 4a2cd97 {
+    align-self: stretch;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    max-width: none;
+}
+    
+#da4e3dfe {
+    row-gap: 10px;
+    width: 51.70%;
+    min-height: 8px;
+    justify-content: flex-start;
+    padding: 16px 16px 16px 16px;
+}
+    
+#\36 4da82cb::before, #\36 4da82cb > .bgExtraLayerOverlay {
+    
+}
+    
+#\32 2ce2c23 {
+    width: 44.19611260053619%;
+    min-height: 8px;
+}
+    
+#cb8e1875 {
+    align-self: stretch;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    max-width: none;
+}
+    
+#fc042399 {
+    min-height: 569px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    row-gap: 16px;
+    column-gap: 4%;
+    padding: 50px 3% 50px 3%;
+}
+    
+#\38 6f9364d {
+    align-self: stretch;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    max-width: none;
+}
+    
+#widget_l5e {
+    height: auto;
+}
+}</style> 
+ <style id="grid-styles-tablet-74d03080-d328c9e063df47d3a1befd09cc90f1cd" data-page-uuid="d328c9e063df47d3a1befd09cc90f1cd">@media (min-width: 767px) and (max-width: 1024px) {
+    
+#\32 6fb279d {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+    
+#\32 ef71426 {
+    width: 100%;
+}
+    
+#fc7a1be2 {
+    align-self: stretch;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    max-width: none;
+}
+    
+#\30 cd141d6 {
+    width: 100%;
+}
+}</style> 
+ <style id="grid-styles-tablet-75adee40-006965ece2ed4bab877610a1e2d269ee" data-page-uuid="006965ece2ed4bab877610a1e2d269ee" data-is-header="true">@media (min-width: 767px) and (max-width: 1024px) {
+    
+#\38 3787454 {
+    flex-wrap: wrap;
+    justify-self: auto;
+    align-self: auto;
+    width: 99.99891647855532%;
+    order: 0;
+    justify-content: space-between;
+    margin: 0px 0% 0px 0%;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#d990701f {
+    align-self: center;
+    order: 3;
+    margin: 0px 0% 0px 0%;
+}
+    
+#\31 69f388e {
+    width: 40.34972193149869%;
+    order: 1;
+    min-height: 359px;
+    justify-self: auto;
+    align-self: auto;
+    margin: 0px 0% 0px 0%;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#\39 fbc09e9 {
+    justify-self: auto;
+    align-self: auto;
+    width: 100.00%;
+    order: 1;
+    margin: 0px 0% 0px 0%;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#\36 041fa6e {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-self: auto;
+    align-self: auto;
+    width: 99.99891647855532%;
+    order: 0;
+    margin: 0px 0% 0px 0%;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#\32 18f33b2 {
+    column-gap: 3%;
+    flex-direction: row;
+    min-height: auto;
+    flex-wrap: nowrap;
+    padding: 25px 3% 65px 3%;
+}
+    
+#bc6b09ea {
+    justify-self: auto;
+    align-self: auto;
+    width: 100%;
+    order: 4;
+    margin: 0px 0% 0px 0%;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#\35 c7169b4 {
+    order: 1;
+    margin: 0px 0% 0px 0%;
+}
+    
+#\31 479aea0 {
+    width: 100%;
+    order: 2;
+    min-height: 8px;
+    padding: 0px 0px 0px 0px;
+    margin: 0% 0% 0% 0%;
+}
+    
+#b3915bcd {
+    align-self: center;
+    order: 0;
+    margin: 0px 0% 0px 0%;
+}
+    
+#\38 c8b834e {
+    align-self: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    order: 0;
+}
+    
+#e1d2da3a {
+    order: 2;
+    margin: 0px 0% 0px 0%;
+}
+    
+#\31 10870da {
+    order: 1;
+    margin: 0px 0% 0px 0%;
+}
+    
+#\34 ef02cb6 {
+    align-self: center;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+    
+#c41b0329 {
+    width: 29.998095550812675%;
+    align-self: auto;
+    order: 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-self: auto;
+    margin: 0px 0% 0px 0%;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#e5ce4d48 {
+    width: 29.24%;
+    order: 2;
+    min-height: 359px;
+}
+    
+#f5ffc150 {
+    order: 5;
+    justify-self: auto;
+    align-self: auto;
+    width: 100%;
+    margin: 0px 0% 0px 0%;
+    grid-area: auto / auto / auto / auto;
+}
+}</style> 
+ <style id="grid-styles-desktop_wide-89a17505-d328c9e063df47d3a1befd09cc90f1cd" data-page-uuid="d328c9e063df47d3a1befd09cc90f1cd">@media (min-width: 1400px) {
+    
+#\39 bb6cf40 {
+    width: 1089px;
+}
+    
+#\30 2a7a698 {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-height: 350px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+    
+#\38 d13496e::before, #\38 d13496e > .bgExtraLayerOverlay {
+    
+}
+    
+#\35 12a7af9::before, #\35 12a7af9 > .bgExtraLayerOverlay {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    border-radius: inherit;
+}
+#\35 12a7af9 {
+    width: 100%;
+    min-height: 8px;
+    background-color: rgba(0, 0, 0, 0);
+    background-position: 50% 50%;
+    padding: 16px 16px 16px 16px;
+}
+}</style> 
+ <style id="grid-styles-desktop_wide-f3ab2c50-d328c9e063df47d3a1befd09cc90f1cd" data-page-uuid="d328c9e063df47d3a1befd09cc90f1cd">@media (min-width: 1400px) {
+    
+#cb8e1875 {
+    align-self: stretch;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 99.99998657830719%;
+    max-width: 100%;
+}
+    
+#fc042399 {
+    min-height: 297px;
+    padding: 50px 4% 50px 4%;
+}
+    
+#\38 6f9364d {
+    align-self: stretch;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 99.99998657830719%;
+    max-width: 100%;
+}
+    
+#\36 4da82cb::before, #\36 4da82cb > .bgExtraLayerOverlay {
+    
+}
+    
+#\36 4a2cd97 {
+    width: 99.99998657830719%;
+}
+    
+#widget_l5e {
+    height: auto;
+}
+}</style> 
+ <style id="grid-styles-desktop_wide-74d03080-d328c9e063df47d3a1befd09cc90f1cd" data-page-uuid="d328c9e063df47d3a1befd09cc90f1cd">@media (min-width: 1400px) {
+    
+#\32 6fb279d {
+    padding: 50px 4% 50px 4%;
+}
+    
+#\32 ef71426 {
+    width: 99.99998657830719%;
+}
+    
+#fc7a1be2 {
+    width: 99.99998657830719%;
+}
+    
+#\30 cd141d6 {
+    width: 99.99998657830719%;
+}
+}</style> 
+ <style id="grid-styles-desktop_wide-75adee40-006965ece2ed4bab877610a1e2d269ee" data-page-uuid="006965ece2ed4bab877610a1e2d269ee" data-is-header="true">@media (min-width: 1400px) {
+    
+#\31 479aea0 {
+    width: 100%;
+    min-height: 8px;
+}
+    
+#\32 18f33b2 {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-height: auto;
+}
+}</style> 
+ <style id="grid-styles-inherited_from_desktop-f3ab2c50-d328c9e063df47d3a1befd09cc90f1cd" data-page-uuid="d328c9e063df47d3a1befd09cc90f1cd">@media (max-width: 766px) {
+    
+#\36 4da82cb {
+    grid-template-rows: minmax(8px, max-content);
+}
+    
+#fc042399 {
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+}</style> 
+ <style id="grid-styles-inherited_from_desktop-74d03080-d328c9e063df47d3a1befd09cc90f1cd" data-page-uuid="d328c9e063df47d3a1befd09cc90f1cd">@media (max-width: 766px) {
+    
+#\32 6fb279d {
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+    
+#\32 bdcb8bb {
+    grid-template-rows: minmax(8px, max-content);
+}
+}</style> 
+ <style id="grid-styles-inherited_from_desktop-75adee40-006965ece2ed4bab877610a1e2d269ee" data-page-uuid="006965ece2ed4bab877610a1e2d269ee" data-is-header="true">@media (max-width: 766px) {
+    
+#\34 dc67784 {
+    grid-template-rows: minmax(8px, max-content);
+}
+    
+#\32 18f33b2 {
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+}</style> 
+ <style id="grid-styles-mobile_portrait-89a17505-d328c9e063df47d3a1befd09cc90f1cd" data-page-uuid="d328c9e063df47d3a1befd09cc90f1cd">@media (max-width: 767px) {
+    
+#\30 2a7a698 {
+    min-height: 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 50px 20px 50px 20px;
+}
+    
+#\38 d13496e::before, #\38 d13496e > .bgExtraLayerOverlay {
+    
+}
+    
+#\32 bb14c72 {
+    width: 246px;
+}
+    
+#\35 12a7af9::before, #\35 12a7af9 > .bgExtraLayerOverlay {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    border-radius: inherit;
+}
+#\35 12a7af9 {
+    width: 100%;
+    min-height: 100px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    row-gap: 20px;
+    background-position: 50% 50%;
+    padding: 16px 16px 16px 16px;
+}
+}</style> 
+ <style id="grid-styles-mobile_portrait-f3ab2c50-d328c9e063df47d3a1befd09cc90f1cd" data-page-uuid="d328c9e063df47d3a1befd09cc90f1cd">@media (max-width: 767px) {
+    
+#\36 4a2cd97 {
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    max-width: none;
+}
+    
+#da4e3dfe {
+    width: 100%;
+    min-height: 240px;
+    align-items: center;
+    order: 0;
+    justify-content: flex-start;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    row-gap: 11px;
+}
+    
+#\32 2ce2c23 {
+    width: 100%;
+    min-height: 247px;
+    align-items: center;
+    order: 1;
+}
+    
+#fc042399 {
+    min-height: unset;
+    flex-direction: column;
+    row-gap: 16px;
+    padding: 25px 20px 25px 20px;
+}
+    
+#widget_l5e {
+    height: auto;
+}
+    
+#\36 4da82cb::before, #\36 4da82cb > .bgExtraLayerOverlay {
+    
+}
+}</style> 
+ <style id="grid-styles-mobile_portrait-74d03080-d328c9e063df47d3a1befd09cc90f1cd" data-page-uuid="d328c9e063df47d3a1befd09cc90f1cd">@media (max-width: 767px) {
+    
+#\32 6fb279d {
+    min-height: unset;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+    
+#\37 f1c50ff {
+    width: 100%;
+    min-height: 240px;
+    align-items: flex-start;
+    padding-left: 16px;
+}
+    
+#fc7a1be2 {
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 103.03%;
+    max-width: none;
+}
+    
+#\38 178b76d {
+    width: 100%;
+    min-height: 247px;
+    align-items: flex-start;
+    row-gap: 11px;
+    padding-right: 20px;
+}
+}</style> 
+ <style id="grid-styles-mobile_portrait-75adee40-006965ece2ed4bab877610a1e2d269ee" data-page-uuid="006965ece2ed4bab877610a1e2d269ee" data-is-header="true">@media (max-width: 767px) {
+    
+#\38 3787454 {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+    
+#\31 479aea0 {
+    width: 100%;
+    min-height: 160px;
+    align-items: center;
+    order: 2;
+    padding: 0px 20px 0px 20px;
+}
+    
+#\31 69f388e {
+    align-self: flex-start;
+    width: 100%;
+    min-height: 269px;
+    order: 1;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px 0% 0px 0%;
+}
+    
+#\32 18f33b2 {
+    row-gap: 18px;
+    flex-direction: column;
+    padding-left: 20px;
+    min-height: 0;
+    padding-right: 20px;
+    flex-wrap: nowrap;
+    padding-bottom: 65px;
+}
+    
+#c41b0329 {
+    width: 100%;
+    align-self: flex-start;
+    min-height: 214px;
+    order: 0;
+    justify-self: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px 0% 0px 0%;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#e5ce4d48 {
+    width: 100%;
+    align-self: auto;
+    justify-self: auto;
+    order: 2;
+    min-height: 283px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px 0% 0px 0%;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#\36 041fa6e {
+    align-items: center;
+}
+    
+#b3915bcd {
+    align-self: flex-start;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+    
+#\35 c7169b4 {
+    align-self: flex-start;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+    
+#d990701f {
+    align-self: flex-start;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+    
+#bc6b09ea {
+    align-self: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+}</style> 
+ <style id="grid-styles-mobile_landscape-89a17505-d328c9e063df47d3a1befd09cc90f1cd" data-page-uuid="d328c9e063df47d3a1befd09cc90f1cd">@media (min-width: 468px) and (max-width: 767px) {
+    
+#\30 2a7a698 {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-height: 0;
+}
+    
+#\38 d13496e::before, #\38 d13496e > .bgExtraLayerOverlay {
+    
+}
+    
+#\35 12a7af9::before, #\35 12a7af9 > .bgExtraLayerOverlay {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    border-radius: inherit;
+}
+#\35 12a7af9 {
+    width: 100%;
+    min-height: 160px;
+    background-color: rgba(0, 0, 0, 0);
+    background-position: 50% 50%;
+}
+}</style> 
+ <style id="grid-styles-mobile_landscape-f3ab2c50-d328c9e063df47d3a1befd09cc90f1cd" data-page-uuid="d328c9e063df47d3a1befd09cc90f1cd">@media (min-width: 468px) and (max-width: 767px) {
+    
+#\36 4a2cd97 {
+    width: 100%;
+    align-self: center;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+    
+#\36 4da82cb::before, #\36 4da82cb > .bgExtraLayerOverlay {
+    
+}
+    
+#widget_l5e {
+    height: auto;
+}
+}</style> 
+ <style id="grid-styles-mobile_landscape-74d03080-d328c9e063df47d3a1befd09cc90f1cd" data-page-uuid="d328c9e063df47d3a1befd09cc90f1cd">@media (min-width: 468px) and (max-width: 767px) {
+    
+#fc7a1be2 {
+    width: 100%;
+    align-self: center;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+    
+#\38 178b76d {
+    min-height: 124px;
+    row-gap: 10px;
+}
+}</style> 
+ <style id="grid-styles-mobile_landscape-75adee40-006965ece2ed4bab877610a1e2d269ee" data-page-uuid="006965ece2ed4bab877610a1e2d269ee" data-is-header="true">@media (min-width: 468px) and (max-width: 767px) {
+    
+#\31 479aea0 {
+    width: 100%;
+    min-height: 160px;
+}
+    
+#\31 69f388e {
+    order: 1;
+}
+    
+#\36 041fa6e {
+    justify-self: auto;
+    align-self: auto;
+    width: 100%;
+    order: 0;
+    margin: 0px 0% 0px 0%;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#\31 10870da {
+    align-self: flex-start;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+    
+#\32 18f33b2 {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-height: 0;
+}
+    
+#c41b0329 {
+    justify-self: auto;
+    align-self: auto;
+    width: 100%;
+    order: 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0px 0% 0px 0%;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#e5ce4d48 {
+    order: 2;
+}
+    
+#e1d2da3a {
+    margin: 0px 0% 0px 0%;
+}
+    
+#f5ffc150 {
+    margin: 0px 0% 0px 0%;
+}
+    
+#b3915bcd {
+    width: 50%;
+    margin: 0px 0% 0px 0%;
+}
+    
+#d990701f {
+    margin: 0px 0% 0px 0%;
+}
+    
+#\35 c7169b4 {
+    margin: 0px 0% 0px 0%;
+}
+    
+#bc6b09ea {
+    margin: 0px 0% 0px 0%;
+}
+}</style> 
+
+
+
+
+
+
+<style id="globalFontSizeStyle" type="text/css">
+    .font-size-48, .size-48, .size-48 > font { font-size: 48px !important; }.font-size-36, .size-36, .size-36 > font { font-size: 36px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }
+</style>
+<style id="pageFontSizeStyle" type="text/css">
+</style>
+
+
+
+
+<style id="hideAnimFix">
+  .dmDesktopBody:not(.editGrid) [data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) [data-anim-extended] {
+    visibility: hidden;
+  }
+
+  .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-extended] {
+    visibility: hidden !important;
+  }
+
+
+  #dmRoot:not(.editGrid) .flex-element [data-anim-extended] {
+    visibility: hidden;
+  }
+
+</style>
+
+
+
+
+<style id="fontFallbacks">
+    @font-face {
+  font-family: "Raleway Fallback";
+  src: local('Arial');
+  ascent-override: 89.616%;
+  descent-override: 22.3087%;
+  size-adjust: 104.892%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Roboto Fallback";
+  src: local('Arial');
+  ascent-override: 92.6709%;
+  descent-override: 24.3871%;
+  size-adjust: 100.1106%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Montserrat Fallback";
+  src: local('Arial');
+  ascent-override: 84.9466%;
+  descent-override: 22.0264%;
+  size-adjust: 113.954%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Poppins Fallback";
+  src: local('Arial');
+  ascent-override: 92.326%;
+  descent-override: 30.7753%;
+  line-gap-override: 8.793%;
+  size-adjust: 113.7274%;
+}@font-face {
+  font-family: "Epilogue Fallback";
+  src: local('Arial');
+  ascent-override: 70.2338%;
+  descent-override: 20.8923%;
+  size-adjust: 112.4814%;
+  line-gap-override: 0%;
+ }
+</style>
+
+
+<!-- End render the required css and JS in the head section -->
+
+
+
+
+
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.statelineroofingcompany.com/roofing-services">
+
+  <title>
+    Roofing Services | Stateline Roofing Company | Beloit &amp; Janesville, WI
+  </title>
+  <meta name="description" content="Stateline Roofing Company offers roofing &amp; gutter services. We handle installation, replacement, &amp; repair. Contact us for a consultation today!"/>
+
+  <!-- Conversion Pixel - TI STATEL014_NC_Charlotte_Stateline Roofing Company LLC_CV Pixel - DO NOT MODIFY -->  <script src="https://secure.adnxs.com/px?id=1820511&amp;t=1" type="text/javascript">
+
+
+
+
+  
+
+  
+
+  </script>
+  <!-- End of Conversion Pixel -->  <!-- Segment Pixel - TI STATEL014_NC_Charlotte_Stateline Roofing Company LLC_RT Pixel - DO NOT MODIFY -->  <script src="https://secure.adnxs.com/seg?t=1&amp;add=38366800" type="text/javascript">
+
+
+
+
+  
+
+  
+
+  </script>
+  <!-- End of Segment Pixel -->  <!--THE CONTENT OF THIS FILE WILL BE APPENDED TO EVERY PAGE INSIDE THE </HEAD> ELEMENT-->  <script type="text/javascript" charset="utf-8">
+
+
+
+
+
+
+
+  window.liveSiteAsyncInit = function() {
+    LiveSite.init({
+      id : 'WI-H642ZDP359VE22JNPKI2'
+    });
+  };
+  (function(d, s, id){
+    var js, fjs = d.getElementsByTagName(s)[0],
+        p = 'https://',
+        r = Math.floor(new Date().getTime() / 1000000);
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.id = id;
+    js.src = p + "d2ra6nuwn69ktl.cloudfront.net/assets/livesite.js?" + r;
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'livesite-jssdk'));
+
+
+  
+
+  
+
+  
+
+  </script>
+
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="Roofing Services | Stateline Roofing Company | Beloit &amp; Janesville, WI"/>
+  <meta name="twitter:description" content="Stateline Roofing Company offers roofing &amp; gutter services. We handle installation, replacement, &amp; repair. Contact us for a consultation today!"/>
+  <meta property="og:description" content="Stateline Roofing Company offers roofing &amp; gutter services. We handle installation, replacement, &amp; repair. Contact us for a consultation today!"/>
+  <meta property="og:title" content="Roofing Services | Stateline Roofing Company | Beloit &amp; Janesville, WI"/>
+
+
+
+
+<!-- SYS- VVNfRElSRUNUX1BST0RVQ1RJT04= -->
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="dmRoot" data-page-alias="roofing-services"  class="dmRoot dmDesktopBody fix-mobile-scrolling addCanvasBorder dmResellerSite dmLargeBody responsiveTablet "
+      style="padding:0;margin:0;"
+      
+    >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========= Site Content ========= -->
+<div id="dm" class='dmwr'>
+    
+    <div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+         <div dmwrapped="true" id="1901957768" class="dm-home-page" themewaschanged="true" desktop-global-classes="" tablet-global-classes=""> <div dmtemplateid="Hamburger" data-responsive-name="ResponsiveDesktopTopTabletHamburger" class="runtime-module-container dm-bfs dm-layout-sec hasAnimations rows-1200 inMiniHeaderMode hasStickyHeader hamburger-reverse dmPageBody d-page-1716942098 inputs-css-clean dmFreeHeader" id="dm-outer-wrapper" data-page-class="1716942098" data-soch="true" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <div id="site_content"> <div class="p_hfcontainer showOnMedium"> <div id="hamburger-drawer" class="hamburger-drawer layout-drawer" layout="e9d510f4eb904e939c2be8efaf777e6e===header" data-origin="side-reverse" data-auto-height="true"> <div class="u_1826294544 dmRespRow" style="text-align: center;" id="1826294544"> <div class="dmRespColsWrapper" id="1337204992"> <div class="u_1183846399 dmRespCol small-12 medium-12 large-12 empty-column" id="1183846399"></div> 
+</div> 
+</div> 
+ <div class="u_1021493186 dmRespRow middleDrawerRow" style="text-align: center;" id="1021493186"> <div class="dmRespColsWrapper" id="1170137577"> <div class="dmRespCol small-12 u_1808057136 medium-12 large-12" id="1808057136"> <div class="u_1919575698 dmNewParagraph" id="1919575698" style="transition:none;line-height:initial;" data-version="5"> <h3 class="text-align-center"><span style="display: initial;">Get in touch</span></h3> 
+</div> <a class="default align-center dmCall voipReplacement dmWidget dmNoMark dmWwr" href="tel:(608) 247-0968" contenteditable="false" onclick=";return dm_gaq_push_event('ClickToCall', 'Call',null,'e0ad5d71', this);" id="1288285395" dmle_extension="clicktocall" data-element-type="clicktocall" data-binding="W3siYmluZGluZ05hbWUiOiJwaG9uZSIsInZhbHVlIjoiY29udGVudF9saWJyYXJ5Lmdsb2JhbC5waG9uZS5waG9uZSJ9XQ==" wr="true" data-display-type="block" icon="true" surround="true" description="" adwords="" icon-name="icon-phone" phone="(608) 247-0968" text="" image=""> <span class="iconBg" aria-hidden="true"> <span class="icon hasFontIcon icon-phone"></span> 
+</span> 
+ <span class="text">(608) 247-0968</span> 
+</a> 
+ <nav class="u_1144820115 effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_2" layout-sub="" data-show-vertical-sub-items="HIDE" id="1144820115" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="index.html" class="unifiednav__item  dmUDNavigationItem_00  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Home
+        " data-auto="page-text-style">Home<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="about.html" class="unifiednav__item  dmUDNavigationItem_010101535023  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="About" data-auto="page-text-style">About<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="roofing-services.html" class="unifiednav__item  dmNavItemSelected  dmUDNavigationItem_010101863356  " target="" data-target-page-alias="" data-auto="selected-page"> <span class="nav-item-text " data-link-text="Roofing Services" data-auto="page-text-style">Roofing Services<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="insurance-claims.html" class="unifiednav__item  dmUDNavigationItem_010101470616  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Insurance Claims" data-auto="page-text-style">Insurance Claims<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="storm-damage.html" class="unifiednav__item  dmUDNavigationItem_010101840975  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Storm Damage" data-auto="page-text-style">Storm Damage<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="gutters.html" class="unifiednav__item  dmUDNavigationItem_010101959615  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Gutters" data-auto="page-text-style">Gutters<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="areas-we-serve.html" class="unifiednav__item  dmUDNavigationItem_010101884453  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Areas We Serve" data-auto="page-text-style">Areas We Serve<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="contact-us.html" class="unifiednav__item  dmUDNavigationItem_010101299106  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Contact Us" data-auto="page-text-style">Contact Us<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1676049285" style="text-align: center;" id="1676049285"> <div class="dmRespColsWrapper" id="1888750820"> <div class="u_1916182198 dmRespCol small-12 medium-12 large-12 empty-column" id="1916182198"></div> 
+</div> 
+</div> 
+</div> 
+ <div class="layout-drawer-overlay" id="layout-drawer-overlay"></div> 
+</div> 
+ <div class="site_content"> <div id="hamburger-header-container" class="showOnMedium hamburger-header-container p_hfcontainer"> <div id="hamburger-header" class="hamburger-header p_hfcontainer" layout="44dc38f951e9489490b055748e10ba9f===header"> <div class="u_1705692124 dmRespRow" style="text-align: center;" id="1705692124"> <div class="dmRespColsWrapper" id="1469942216"> <div class="dmRespCol small-12 u_1655486006 medium-12 large-12" id="1655486006"> <div class="u_1923160809 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1923160809" data-binding="W3siYmluZGluZ05hbWUiOiJpbWFnZSIsInZhbHVlIjoic2l0ZV9pbWFnZXMubG9nbyJ9XQ=="> <a href="index.html" id="1573522578" file="false"><img src="https://lirp.cdn-website.com/e0ad5d71/dms3rep/multi/opt/logo-c8bf3b42-1920w.png" id="1761992403" class="" data-dm-image-path="https://irp.cdn-website.com/e0ad5d71/dms3rep/multi/logo-c8bf3b42.png" width="52" height="25" data-diy-image="" alt="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <button class="showOnMedium layout-drawer-hamburger hamburger-on-header" id="layout-drawer-hamburger" aria-label="menu"> <span class="hamburger__slice"></span> 
+ <span class="hamburger__slice"></span> 
+ <span class="hamburger__slice"></span> 
+</button> 
+ <div class="dmHeaderContainer fHeader d-header-wrapper showOnLarge"> <div id="hcontainer" class="u_hcontainer dmHeader p_hfcontainer" freeheader="true" headerlayout="b58ba5b5703b4cd7b5f5f7951565dc87===horizontal-layout-5" layout="SHARD23e258119881349f1b0afec8887fc1e4b===header" data-scrollable-target="body" data-scrollable-target-threshold="1" data-scroll-responder-id="1" logo-size-target="100%" mini-header-show-only-navigation-row="true" has-shadow="true"> <div dm:templateorder="85" class="dmHeaderResp dmHeaderStack noSwitch" id="1709005236"> <div class="u_1329064499 dmRespRow dmDefaultListContentRow" style="text-align:center" id="1329064499"> <div class="dmRespColsWrapper" id="1321079108"> <div class="u_1937063347 dmRespCol small-12 large-4 medium-4" id="1937063347"> <span id="1697976500"></span> 
+</div> 
+ <div class="u_1564764736 dmRespCol small-12 large-4 medium-4" id="1564764736"> <span id="1678604629"></span> 
+ <div class="u_1396528272 imageWidget align-center" data-widget-type="image" id="1396528272" data-element-type="image" data-binding="W3siYmluZGluZ05hbWUiOiJpbWFnZSIsInZhbHVlIjoic2l0ZV9pbWFnZXMubG9nbyJ9XQ=="> <a href="index.html" id="1375218744"><img src="https://lirp.cdn-website.com/e0ad5d71/dms3rep/multi/opt/logo-c8bf3b42-1920w.png" id="1593135016" class="" data-dm-image-path="https://irp.cdn-website.com/e0ad5d71/dms3rep/multi/logo-c8bf3b42.png" data-hover-effect="zoomout" data-diy-image="" alt="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+ <div class="u_1167893795 small-12 dmRespCol large-4 medium-4" id="1167893795"> <span id="1716448676"></span> 
+ <a class="u_1666645574 default align-center dmCall voipReplacement dmWidget dmNoMark dmWwr" href="tel:(608) 247-0968" contenteditable="false" onclick=";return dm_gaq_push_event('ClickToCall', 'Call',null,'e0ad5d71', this);" id="1666645574" dmle_extension="clicktocall" data-element-type="clicktocall" data-binding="W3siYmluZGluZ05hbWUiOiJwaG9uZSIsInZhbHVlIjoiY29udGVudF9saWJyYXJ5Lmdsb2JhbC5waG9uZS5waG9uZSJ9XQ==" wr="true" data-display-type="block" icon="true" surround="true" description="" adwords="" icon-name="icon-phone" phone="(608) 247-0968" text="" image=""> <span class="iconBg" aria-hidden="true"> <span class="icon hasFontIcon icon-phone"></span> 
+</span> 
+ <span class="text">(608) 247-0968</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1019921850 dmRespRow" style="text-align: center;" id="1019921850"> <div class="dmRespColsWrapper" id="1099291536"> <div class="dmRespCol small-12 medium-12 large-12" id="1162226241"> <span id="1396816717"></span> 
+ <nav class="u_1361387010 effect-text-fill main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_5" layout-sub="submenu_horizontal_2" data-show-vertical-sub-items="HOVER" data-divider="SLASH" id="1361387010" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="index.html" class="unifiednav__item  dmUDNavigationItem_00  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Home
+        " data-auto="page-text-style">Home<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="about.html" class="unifiednav__item  dmUDNavigationItem_010101535023  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="About" data-auto="page-text-style">About<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="roofing-services.html" class="unifiednav__item  dmNavItemSelected  dmUDNavigationItem_010101863356  " target="" data-target-page-alias="" data-auto="selected-page"> <span class="nav-item-text " data-link-text="Roofing Services" data-auto="page-text-style">Roofing Services<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="insurance-claims.html" class="unifiednav__item  dmUDNavigationItem_010101470616  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Insurance Claims" data-auto="page-text-style">Insurance Claims<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="storm-damage.html" class="unifiednav__item  dmUDNavigationItem_010101840975  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Storm Damage" data-auto="page-text-style">Storm Damage<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="gutters.html" class="unifiednav__item  dmUDNavigationItem_010101959615  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Gutters" data-auto="page-text-style">Gutters<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="areas-we-serve.html" class="unifiednav__item  dmUDNavigationItem_010101884453  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Areas We Serve" data-auto="page-text-style">Areas We Serve<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="contact-us.html" class="unifiednav__item  dmUDNavigationItem_010101299106  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Contact Us" data-auto="page-text-style">Contact Us<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="stickyHeaderSpacer" id="stickyHeaderSpacer" data-new="true"></div> 
+ <div dmwrapped="true" id="dmFirstContainer" class="dmBody u_dmStyle_template_roofing-services dm-home-page" themewaschanged="true" desktop-global-classes="" tablet-global-classes=""> <div id="allWrapper" class="allWrapper"><!-- navigation placeholders --> <div id="dm_content" class="dmContent" role="main"> <div dm:templateorder="170" class="dmHomeRespTmpl mainBorder dmRespRowsWrapper dmFullRowRespTmpl" id="1716942098"> <div data-layout-section="" data-auto="flex-section" id="1105167200" data-flex-id="89a17505" class="u_1105167200"> <div class="flex-widgets-container" id="1925217513"></div> 
+ <section id="376c42c5" class="flex-element section" data-auto="flex-element-section"> <div id="8d13496e" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid="" data-image-bg-static=""> <div id="02a7a698" class="flex-element group" data-auto="flex-element-group"> <div id="512a7af9" class="flex-element group dl" data-auto="flex-element-group"> <div id="9bb6cf40" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1549706764"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1549706764" data-ai-tag="Section title" style=""> <h3 class="m-size-38 size-48"><span class="font-size-48 m-font-size-38" style="color: var(--color_8); display: initial;">Roofing Services</span></h3> 
+</div> 
+</div> 
+ <div id="2bb14c72" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="link" data-external-id="1686096949"> <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient button_2 u_1686096949" file="false" href="contact-us.html" data-element-type="dButtonLinkId" id="1686096949"> <span class="iconBg" aria-hidden="true" id="1341225332"> <span class="icon hasFontIcon icon-star" id="1611990910"></span> 
+</span> 
+ <span class="text" id="1843793556" data-ai-tag="Short button text">Contact Us</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</section> 
+</div> 
+ <div data-flex-id="f3ab2c50" data-auto="flex-section" id="1189195246" data-layout-section=""> <div class="flex-widgets-container" id="1152399320"></div> 
+ <section id="25b42c76" class="flex-element section" data-auto="flex-element-section"> <div id="64da82cb" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="fc042399" class="flex-element group" data-auto="flex-element-group"> <div id="da4e3dfe" class="flex-element group" data-auto="flex-element-group"> <div id="cb8e1875" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1329353858"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1329353858" data-ai-tag="Short title" style=""> <h1 class="size-36 m-size-29"><span style="display: unset; color: var(--color_7);" class="font-size-36 m-font-size-29">Bring Us Aboard Your New Construction Project&nbsp;</span></h1> 
+</div> 
+</div> 
+ <div id="86f9364d" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1936572974"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1936572974" data-ai-tag="Short title" style=""> <h2><span style="display: unset;">Count on us for roof installation services in Beloit, Janesville, WI or surrounding areas</span></h2> 
+</div> 
+</div> 
+ <div id="64a2cd97" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1310902654"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1310902654" data-ai-tag="Paragraph" style=""><p><span style="display: initial;">If you&rsquo;re building a new home or business in the Beloit &amp; Janesville, WI area, you&rsquo;re going to need a professional roofing company to keep your project on track. Stateline Roofing Company will work closely with you throughout every aspect of your roof installation project, from material selection to the final inspection. &nbsp;</span></p><p><span style="display: initial;">&nbsp;</span></p><p><span class="" style="display: initial;"><span style="display: initial;">Call 608-247-0968 now to schedule your roof installation consultation.</span> 
+</span></p></div> 
+</div> 
+</div> 
+ <div id="22ce2c23" class="flex-element group" data-auto="flex-element-group"> <div id="widget_l5e" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="image" data-keep-proportion="true" data-external-id="1222793616"> <div class="imageWidget align-center u_1222793616" data-element-type="image" data-widget-type="image" id="1222793616"><img src="https://lirp.cdn-website.com/e0ad5d71/dms3rep/multi/opt/roofing-1920w.jpg" alt="" id="1887743207" class="" data-dm-image-path="https://irp.cdn-website.com/e0ad5d71/dms3rep/multi/roofing.jpg" width="1920" height="1080" data-hover-effect="float" onerror="handleImageLoadError(this)"/></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</section> 
+</div> 
+ <div data-auto="flex-section" id="1051947374" data-flex-id="74d03080" data-layout-section="" class="u_1051947374"> <div class="flex-widgets-container" id="1450935738"></div> 
+ <section id="592ff876" class="flex-element section" data-auto="flex-element-section"> <div id="2bdcb8bb" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="26fb279d" class="flex-element group" data-auto="flex-element-group"> <div id="8178b76d" class="flex-element group" data-auto="flex-element-group"> <div id="2ef71426" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1286799260"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1286799260" data-ai-tag="Short title" style=""> <h4 class="m-text-align-left text-align-right size-18 m-size-14"><span style="display: unset;" class="font-size-18 m-font-size-14">Our commitment to using only the best materials and techniques means your new roof will not only look fantastic but will also provide lasting protection.</span></h4> 
+</div> 
+</div> 
+ <div id="0cd141d6" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1826411733"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1826411733" data-ai-tag="Short title" style=""> <h3 class="m-text-align-left text-align-right"><span style="display: unset;">Get a new roof that&rsquo;s built to last</span></h3> 
+</div> 
+</div> 
+</div> 
+ <div id="7f1c50ff" class="flex-element group" data-auto="flex-element-group"> <div id="fc7a1be2" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1823458791"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1823458791" data-ai-tag="Paragraph" style=""><p><span style="display: initial;">Our roof replacement and repair company can work with a variety of materials, including:&nbsp;</span></p><p><span style="display: initial;">&nbsp;</span></p> <ul class="defaultList bullet"><li><span style="display: initial;">Asphalt shingle&nbsp;</span></li><li><span style="display: initial;">Rubber&nbsp;</span></li><li><span style="display: initial;">Metal &nbsp;</span></li><li><span style="display: initial;">Tile &nbsp;</span></li></ul> 
+<p><span style="display: initial;">&nbsp;</span></p><p><span style="display: initial;">We can also install aluminum soffit and metal fascia boards. &nbsp;</span></p><p><span style="display: initial;">&nbsp;</span></p><p><span style="display: initial;">Whether you have a flat or sloped roof, rely on us for your roof replacement and repair services today. &nbsp;</span></p></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</section> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmFooterContainer"> <div id="fcontainer" class="u_fcontainer f_hcontainer dmFooter p_hfcontainer"> <div dm:templateorder="250" class="dmFooterResp generalFooter" id="1943048428"> <div data-auto="flex-section" id="1622759934" data-flex-id="75adee40" data-layout-section="" class="u_1622759934"> <div class="flex-widgets-container" id="1242622376"></div> 
+ <section id="a2e36541" class="flex-element section" data-auto="flex-element-section"> <div id="4dc67784" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="218f33b2" class="flex-element group" data-auto="flex-element-group"> <div id="1479aea0" class="flex-element group" data-auto="flex-element-group"> <div id="6041fa6e" class="flex-element group" data-auto="flex-element-group"> <div id="83787454" class="flex-element group" data-auto="flex-element-group"> <div id="c41b0329" class="flex-element group" data-auto="flex-element-group"> <div id="e1d2da3a" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="spacer" data-external-id="1623930314"> <div data-element-type="spacer" class="dmSpacer" id="1623930314"></div> 
+</div> 
+ <div id="f5ffc150" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="spacer" data-external-id="1709270811"> <div data-element-type="spacer" class="dmSpacer" id="1709270811"></div> 
+</div> 
+ <div id="b3915bcd" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1045895278"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1045895278" style=""> <h4 class="m-text-align-left text-align-left"><span style="display: unset; color: var(--color_8);">Call Us:</span></h4> 
+</div> 
+</div> 
+ <div id="d990701f" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1968344507"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1968344507" style=""> <h4 class="text-align-left m-text-align-left"><span style="display: unset; color: var(--color_8);">Our Location:</span></h4> 
+</div> 
+</div> 
+ <div id="5c7169b4" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1087188700"> <div class="dmNewParagraph u_1087188700" data-element-type="paragraph" data-version="5" id="1087188700" style="" data-binding="W3siYmluZGluZ05hbWUiOiJ0ZXh0IiwidmFsdWUiOiJjb250ZW50X2xpYnJhcnkuZ2xvYmFsLnBob25lLnBob25lIn1d" data-diy-text="">(608) 247-0968</div> 
+</div> 
+ <div id="bc6b09ea" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1624063404"> <div class="dmNewParagraph u_1624063404" data-element-type="paragraph" data-version="5" id="1624063404" style="" data-binding="W3siYmluZGluZ05hbWUiOiJ0ZXh0IiwidmFsdWUiOiJzaXRlX3RleHQuYWRkcmVzcyJ9XQ==" data-diy-text=""><p class="rteBlock">Beloit, WI 53511</p></div> 
+</div> 
+</div> 
+ <div id="169f388e" class="flex-element group" data-auto="flex-element-group"> <div id="8c8b834e" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1915187410"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1915187410" style=""> <h4 class="text-align-left"><span style="display: unset; color: var(--color_8);">Hours:</span></h4> 
+</div> 
+</div> 
+ <div id="9fbc09e9" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="hoursOfOperation" data-external-id="1627464857"> <div class="default u_1627464857 dmHoursOfOperation" id="1627464857" dmle_extension="open_hours" data-element-type="open_hours" data-binding="W3siYmluZGluZ05hbWUiOiJidXNpbmVzc19ob3VycyIsInZhbHVlIjoiY29udGVudF9saWJyYXJ5Lmdsb2JhbC5idXNpbmVzc19ob3VycyJ9XQ==" time_format="12" wr="true" displaytitle="false" lang="" forcedisplay="false" icon="true" surround="true" adwords=""> <dl class="open-hours-data"> <div class="open-hours-item"> <dt day="0">Monday</dt> 
+ <dd> <time>7:00 am</time> 
+- <time>7:00 pm</time> 
+</dd> 
+</div> 
+ <div class="open-hours-item"> <dt day="1">Tuesday</dt> 
+ <dd> <time>7:00 am</time> 
+- <time>7:00 pm</time> 
+</dd> 
+</div> 
+ <div class="open-hours-item"> <dt day="2">Wednesday</dt> 
+ <dd> <time>7:00 am</time> 
+- <time>7:00 pm</time> 
+</dd> 
+</div> 
+ <div class="open-hours-item"> <dt day="3">Thursday</dt> 
+ <dd> <time>7:00 am</time> 
+- <time>7:00 pm</time> 
+</dd> 
+</div> 
+ <div class="open-hours-item"> <dt day="4">Friday</dt> 
+ <dd> <time>7:00 am</time> 
+- <time>7:00 pm</time> 
+</dd> 
+</div> 
+ <div class="open-hours-item"> <dt day="5">Saturday</dt> 
+ <dd> <time>7:00 am</time> 
+- <time>7:00 pm</time> 
+</dd> 
+</div> 
+ <div class="open-hours-item"> <dt day="6">Sunday</dt> 
+ <dd>Closed</dd> 
+</div> 
+</dl> 
+</div> 
+</div> 
+ <div id="widget_4c4" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1692575582"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1692575582" style=""><p class="m-text-align-center text-align-left"><span style="display: unset;">Emergency Services Available After Hours &amp; on Sunday</span></p></div> 
+</div> 
+</div> 
+ <div id="e5ce4d48" class="flex-element group" data-auto="flex-element-group"> <div id="4ef02cb6" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1513866008"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1513866008" style=""> <h4 class="text-align-left"><span style="display: unset; color: var(--color_8);">Our Services:</span></h4> 
+</div> 
+</div> 
+ <div id="89bd346f" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="ONELinksMenu" data-external-id="1097046390"> <nav class="u_1097046390 unifiednav_vertical effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_2" layout-sub="" data-show-vertical-sub-items="HOVER" id="1097046390" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="https://lirp.cdn-website.com/be65f10b/dms3rep/multi/opt/port1-whitelogo-1920w.png" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="roofing-services.html" class="unifiednav__item  dmNavItemSelected    " target="" data-target-page-alias="roofing-services" data-auto="selected-page"> <span class="nav-item-text " data-link-text="Roofing Services" data-auto="page-text-style">Roofing Services<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="insurance-claims.html" class="unifiednav__item    " target="" data-target-page-alias="insurance-claims"> <span class="nav-item-text " data-link-text="Insurance Claims" data-auto="page-text-style">Insurance Claims<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="storm-damage.html" class="unifiednav__item    " target="" data-target-page-alias="storm-damage"> <span class="nav-item-text " data-link-text="Storm Damage" data-auto="page-text-style">Storm Damage<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="gutters.html" class="unifiednav__item    " target="" data-target-page-alias="gutters"> <span class="nav-item-text " data-link-text="Gutters" data-auto="page-text-style">Gutters<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+</div> 
+</div> 
+ <div id="110870da" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="custom" data-external-id="1480835623"> <div class="widget-fafd2a u_1480835623 dmCustomWidget" data-lazy-load="true" data-title="" id="1480835623" dmle_extension="custom_extension" data-element-type="custom_extension" data-binding="W3siYmluZGluZ05hbWUiOiJidXNpbmVzc05hbWUiLCJ2YWx1ZSI6ImNvbnRlbnRfbGlicmFyeS5nbG9iYWwuY29tcGFueV9uYW1lIn1d" icon="false" surround="false" data-widget-id="fafd2a680007456a8567a7c8dd532dbe" data-widget-version="7" data-widget-config="eyJidXNpbmVzc05hbWUiOiJTdGF0ZWxpbmUgUm9vZmluZyBDb21wYW55In0="> <p class="copyright">Copyright &copy; <span id="current-year"></span> 
+Stateline Roofing Company | All Rights Reserved</p> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</section> 
+</div> 
+</div> 
+ <div id="1236746004" dmle_extension="powered_by" data-element-type="powered_by" icon="true" surround="false"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+    </div>
+</div>
+<!--  Add full CSS and Javascript before the close tag of the body if needed -->
+<!-- ========= JS Section ========= -->
+<script>
+    var isWLR = true;
+
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+    window.collections = {};
+    window.currentLanguage = "ENGLISH"
+    window.isSitePreview = false;
+</script>
+<script>
+    window.customWidgetsFunctions["fafd2a680007456a8567a7c8dd532dbe~7"] = function (element, data, api) {
+          document.getElementById('current-year').innerText = new Date().getFullYear()
+    };
+</script>
+<script type="text/javascript">
+
+    var d_version = "production_5798";
+    var build = "2025-09-15T08_48_34";
+    window['v' + 'ersion'] = d_version;
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        window.assetsCacheQueryParam = "?version=2025-09-15T08_48_34";
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            } else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+</script>
+
+<!-- Load jQuery -->
+<script type="text/javascript" id='d-js-jquery'
+        src="https://static.cdn-website.com/libs/jquery/jquery-3.7.0.min.js"></script>
+<!-- End Load jQuery -->
+<!-- Injecting site-wide before scripts -->
+<!-- End Injecting site-wide to the head -->
+
+
+<script>
+    var _jquery = window.$;
+
+    var jqueryAliases = ['$', 'jquery', 'jQuery'];
+
+    jqueryAliases.forEach((alias) => {
+        Object.defineProperty(window, alias, {
+            get() {
+                return _jquery;
+            },
+            set() {
+                console.warn("Trying to over-write the global jquery object!");
+            }
+        });
+    });
+    window.jQuery.migrateMute = true;
+</script>
+<script>
+    window.cookiesNotificationMarkupPreview = 'null';
+</script>
+
+<!-- HEAD RT JS Include -->
+<script id='d-js-params'>
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+
+    window.rtCommonProps = {};
+    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+    rtCommonProps["runtimecollector.url"] = 'https://rtc.multiscreensite.com';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["rt.pushnotifs.force.button"] =true;
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["isCoverage.test"] =false;
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["feature.flag.mappy.kml"] =false;
+    rtCommonProps["common.resources.dist.cdn"] =true;
+    rtCommonProps["common.build.dist.folder"] = 'production/5798';
+    rtCommonProps["common.resources.cdn.host"] = 'https://static.cdn-website.com';
+    rtCommonProps["common.resources.folder"] = 'https://static.cdn-website.com/mnlt/production/5798';
+    rtCommonProps["feature.flag.runtime.backgroundSlider.preload.slowly"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.jitAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.sites.google.analytics.gtag"] =true;
+    rtCommonProps["feature.flag.runOnReadyNewTask"] =true;
+    rtCommonProps["isAutomation.test"] =false;
+    rtCommonProps["booking.cal.api.domain"] = 'api.cal.com';
+
+    
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
+    
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'mapbox';
+    rtCommonProps['common.map.defaults.radiusSize'] = '1500';
+    rtCommonProps['common.map.defaults.radiusBg'] = 'rgba(255, 255, 255, 0.4)';
+    rtCommonProps['common.map.defaults.strokeColor'] = 'rgba(255, 255, 255, 1)';
+    rtCommonProps['common.map.defaults.strokeSize'] = '2';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.disallowPopupsInEditor'] = true;
+    rtCommonProps['feature.flag.mark.anchors'] = true;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"] =160;
+    rtCommonProps["images.sizes.mobile"] =640;
+    rtCommonProps["images.sizes.tablet"] =1280;
+    rtCommonProps["images.sizes.desktop"] =1920;
+    rtCommonProps["modules.resources.cdn"] =true;
+    rtCommonProps["import.images.storage.imageCDN"] = 'https://lirp.cdn-website.com/';
+    rtCommonProps["feature.flag.runtime.inp.threshold"] =150;
+    rtCommonProps["feature.flag.performance.logs"] =true;
+    rtCommonProps["site.widget.form.captcha.type"] = 'g_recaptcha';
+    rtCommonProps["friendly.captcha.site.key"] = 'FCMGSQG9GVNMFS8K';
+    rtCommonProps["cookiebot.mapbox.consent.category"] = 'marketing';
+    // feature flags that's used out of runtime module (in  legacy files)
+    rtCommonProps["platform.monolith.personalization.dateTimeCondition.popupMsgAction.moveToclient.enabled"] =true;
+    rtCommonProps["streamline.monolith.personalization.skipRuleConditionsForPreview.enabled"] =true;
+    rtCommonProps["streamline.personalization.decodeTimeZone.enabled"] =true;
+
+    window.rtFlags = {};
+    rtFlags["unsuspendEcwidStoreOnRuntime.enabled"] =true;
+    rtFlags["scripts.widgetCount.enabled"] =true;
+    rtFlags["fnb.animations.tracking.enabled"] =true;
+    rtFlags["ecom.ecwidNewUrlStructure.enabled"] = false;
+    rtFlags["ecom.ecwid.accountPage.emptyBaseUrl.enabled"] = true;
+    rtFlags["ecom.ecwid.pages.links.disable.listeners"] = true;
+    rtFlags["ecom.ecwid.storefrontV3.enabled"] = false;
+    rtFlags["ecom.ecwid.old.store.fix.facebook.share"] = true;
+    rtFlags["feature.flag.photo.gallery.exact.size"] =true;
+    rtFlags["geocode.search.localize"] =false;
+    rtFlags["feature.flag.runtime.newAnimation.asyncInit.setTimeout.enabled"] =false;
+    rtFlags["twitter.heightLimit.enabled"] = true;
+    rtFlags["runtime.lottieOverflow"] =false;
+    rtFlags["runtime.monitoring.sentry.ignoreErrors"] = "";
+    rtFlags["contact.form.browserValidation.enabled"] =true;
+    rtFlags["streamline.monolith.personalization.supportMultipleConditions.enabled"] =false;
+    rtFlags["runtime.cwv.report.cls.enabled"] =true;
+    rtFlags["flex.runtime.popup.with.show"] =true;
+    rtFlags["contact.form.useActiveForm"] =true;
+    rtFlags["runtime.ssr.productStore.internal.observer"] =true;
+    rtFlags["runtime.ssr.productCustomizations"] =true;
+    rtFlags["runtime.ssr.booking.dryrun.for.default.staffmember"] =false;
+</script>
+<script src="https://static.cdn-website.com/mnlt/production/5798/_dm/s/rt/dist/scripts/d-js-one-runtime-unified-desktop.min.js"  id="d-js-core"></script>
+<!-- End of HEAD RT JS Include -->
+<script src="https://static.cdn-website.com/mnlt/production/5798/_dm/s/rt/dist/scripts/d-js-jquery-migrate.min.js" ></script>
+<script>
+    
+    $(window).bind("orientationchange", function (e) {
+        $.layoutManager.initLayout();
+        
+    });
+    $(document).resize(function () {
+        
+    });
+</script>
+<script type="text/javascript" id="d_track_campaign">
+(function() {
+    if (!window.location.search) {
+        return;
+    }
+	const cleanParams = window.location.search.substring(1); // Strip ?
+	const queryParams = cleanParams.split('&');
+
+	const expires = 'expires=' + new Date().getTime() + 24 * 60 * 60 * 1000;
+	const domain = 'domain=' + window.location.hostname;
+	const path = "path=/";
+
+	queryParams.forEach((param) => {
+		const [key, value = ''] = param.split('=');
+		if (key.startsWith('utm_')) {
+			const cookieName = "_dm_rt_" + key.substring(4);
+			const cookie = cookieName + "=" + value;
+			const joined = [cookie, expires, domain, path].join(";");
+			document.cookie = joined;
+		}
+	});
+}());
+</script>
+<script type="text/javascript" >
+  var _dm_gaq = {};
+  var _gaq = _gaq || [];
+  var _dm_insite = [];
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-83CLCGJF1V"></script>
+<script type="text/javascript" id="d_track_ga">
+  _dm_gaq.siteAlias = 'e0ad5d71';
+  _dm_gaq.systemAggregatedGaqID = '';
+  _dm_gaq.externalGaqID = 'G-83CLCGJF1V';
+  _dm_gaq.gaAggregatedEventAttributes = {
+	  'site_alias':  _dm_gaq.siteAlias,
+	  'product': 'DM_DIRECT',
+	  'plan': 'BUSINESS_PLUS',
+	  'dfooter': 'false',
+	  'sitetype': '1',
+	  'pwaEnabled': 'true'
+  }
+
+  _dm_gaq.pushEvent = function(trackingId, event, category, label, value, additionalParams = {}) {
+	  const eventProps = {
+		  send_to: trackingId,
+		  event_category: category,
+		  event_label: label,
+		  value,
+		  ...additionalParams,
+		  ...(trackingId === _dm_gaq.systemAggregatedGaqID
+				  ? _dm_gaq.gaAggregatedEventAttributes : {})
+	  };
+	  gtag('event', event, eventProps);
+  }
+
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+  function pushInsiteImpressions(id) {
+	  _dm_insite.forEach((rule) => {
+		  _dm_gaq.pushEvent(id, 'insite_impression', 'insite', rule.ruleType + '__' + rule.ruleId);
+	  });
+  }
+
+if(_dm_gaq.systemAggregatedGaqID){
+	// track aggregated account
+	gtag('config', '', {
+		'send_page_view': false,
+		'anonymize_ip': true,
+		'transport_type': 'beacon',
+		'custom_map': {'dimension1': 'site_alias', 'dimension2': 'product', 'dimension3': 'dFooter', 'dimension4': 'sitetype'}
+	});
+	gtag('set', 'developer_id.dMDU5Nj', true);
+
+	_dm_gaq.pushEvent('', 'page_view');
+	pushInsiteImpressions(_dm_gaq.systemAggregatedGaqID);
+}
+
+if(_dm_gaq.externalGaqID && _dm_gaq.externalGaqID!= '') {
+	gtag('config', 'G-83CLCGJF1V', {
+		'send_page_view': false,
+		'anonymize_ip': true,
+		'transport_type': 'beacon',
+		'linker': {
+			'domains': ['statelineroofingcompany.com']
+		}
+	});
+	_dm_gaq.pushEvent('G-83CLCGJF1V', 'page_view');
+	pushInsiteImpressions(_dm_gaq.externalGaqID);
+}
+</script>
+<script type="text/javascript" id="d_track_sp">
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d32hwlnfiv2gyn.cloudfront.net/sp-2.0.0-dm-0.1.min.js","snowplow"));
+window.dmsnowplow  = window.snowplow;
+
+dmsnowplow('newTracker', 'cf', 'd32hwlnfiv2gyn.cloudfront.net', { // Initialise a tracker
+  appId: 'e0ad5d71'
+});
+
+// snowplow queries element styles so we wait until CSS calculations are done.
+requestAnimationFrame(() => {
+	dmsnowplow('trackPageView');
+	_dm_insite.forEach((rule) => {
+		// Specifically in popup only the client knows if it is shown or not so we don't always want to track its impression here
+		// the tracking is in popup.js
+		if (rule.actionName !== "popup") {
+			dmsnowplow('trackStructEvent', 'insite', 'impression', rule.ruleType, rule.ruleId);
+		}
+		window?.waitForDeferred?.('dmAjax', () => {
+			$.DM.events.trigger('event-ruleTriggered', {value: rule});
+		});
+	});
+});
+</script>
+   <div style="display:none;" id="P6iryBW0Wu"></div>
+
+<!-- photoswipe markup -->
+
+
+
+
+
+
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="fb-root"
+        data-locale="en"></div>
+<!-- Alias: e0ad5d71 -->
+<div class="dmPopupMask" id="dmPopupMask"></div>
+<div id="dmPopup" class="dmPopup">
+	<div class="dmPopupCloseWrapper"> <div class="dmPopupClose dm-common-icons-close oneIcon" onclick="dmHidePopup(event);"></div> </div>
+ 	<div class="dmPopupTitle"> <span></span> Share by:</div> 
+	<div class="data"></div>
+</div><script id="d_track_personalization">
+	window?.waitForDeferred?.('dmAjax', () => {
+		// Collects client data and updates cookies used by smart sites
+		window.expireDays = 365;
+		window.visitLength = 30 * 60000;
+		$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), window.expireDays);
+			setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+	});
+</script>
+<script type="text/javascript">
+    
+    Parameters.NavigationAreaParams.MoreButtonText = 'MORE';
+    
+    Parameters.NavigationAreaParams.LessButtonText = 'LESS';
+    Parameters.HomeLinkText = 'Home';
+    </script>
+<!--  End Script tags -->
+<!--  Site Wide Html Markup -->
+<!--  Site Wide Html Markup -->
+</body>
+</html>
